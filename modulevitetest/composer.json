@@ -1,0 +1,22 @@
+{
+  "name": "module/modulevitetest",
+  "description": "Module Vite Test",
+  "license": "Commercial",
+  "authors": [
+    {
+      "name": "module.com",
+      "email": "tech@module.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {},
+    "exclude-from-classmap": []
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "type": "prestashop-module"
+}

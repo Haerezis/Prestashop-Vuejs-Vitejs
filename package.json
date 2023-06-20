@@ -1,0 +1,19 @@
+{
+  "name": "module-vitetest",
+  "version": "0.0.0",
+  "scripts": {
+    "predev": "export NODE_ENV=development && ./write-assets-include.sh",
+    "dev": "vite",
+    "build": "export NODE_ENV=production && vite build",
+    "postbuild": "export NODE_ENV=production && ./write-assets-include.sh"
+  },
+  "dependencies": {
+    "vue": "^2.7.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2"
+  }
+}
